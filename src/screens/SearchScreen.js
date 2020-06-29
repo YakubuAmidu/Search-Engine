@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Text, View, StyleSheet, ScrollView } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import useResults from '../hooks/useResults';
-import ResultsList from '../components/ResultsList';
+import ResultsList from '../components/ResultsList';;
 
 const SearchScreen = () => {
 const [term, setTerm ] = useState('');
