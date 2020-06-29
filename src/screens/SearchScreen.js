@@ -23,7 +23,7 @@ const filterResultsByPrice = (price) => {
             />
             {errorMessage ? <Text>{errorMessage}</Text> : null}
             <ScrollView>
-             <ResultsList   results={filterResultsByPrice('$')} title="Cost Effect"/>
+             <ResultsList  results={filterResultsByPrice('$')} title="Cost Effect"/>
               <ResultsList  results={filterResultsByPrice('$$')} title="Bit Pricier"/>
                <ResultsList  results={filterResultsByPrice('$$')} title="Big Spender"/>
                </ScrollView>
