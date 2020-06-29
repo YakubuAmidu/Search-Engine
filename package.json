@@ -1,7 +1,6 @@
 {
   "homepage": "https://github.com/YakubuAmidu/App.git",
   "main": "node_modules/expo/AppEntry.js",
-},
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
